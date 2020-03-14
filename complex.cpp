@@ -1,3 +1,7 @@
+/*
+   Code modified by Shrikant
+*/
+
 #include<iostream>
 #include<conio.h>
 
@@ -5,8 +9,8 @@ using namespace std;
 
 class Complex
 {
-    int real;
-    int img;
+    int real;    // this is real part of complex number
+    int img;     // this is imagionary part of complex number
 
      public:
         void setdata(int r,int i)
@@ -30,6 +34,7 @@ class Complex
         }
 };
 
+// this is main function
 int main()
 {
     Complex c1,c2,c3;
